@@ -17,7 +17,7 @@ class Footer extends React.Component {
 
     return (
       <div style={footerStyles}>
-        <h4 style={footerTextStyles}>Fueled by Erik</h4>
+        <h4 style={footerTextStyles}>A Qmerit Production</h4>
       </div>
     );
   }
