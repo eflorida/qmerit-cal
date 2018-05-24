@@ -8,7 +8,7 @@ class Footer extends React.Component {
       paddingTop: 12,
       paddingBottom: 12,
       bottom: 0,
-      position: "fixed",
+      // position: "fixed",
       width: "100%"
     };
     const footerTextStyles = {

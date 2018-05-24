@@ -1,7 +1,7 @@
 import React from "react";
 import { CalDatePicker } from "../../components/DatePicker";
 import { Slider } from "../../components/Slider";
-import { Dropdown } from "../../components/DropDown";
+import { Dropdown } from "../../components/Dropdown";
 import { Submit } from "../../components/Submit";
 
 const JOB_TITLES = [
