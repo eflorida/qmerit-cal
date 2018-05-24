@@ -13,7 +13,7 @@ server.listen(process.env.PORT || 3000, error => {
   console.log('🚀 started!');
 });
 
-if (module.hot) {
+if (module.hot && process.env.NODE_ENV !== 'production') {
   console.log('✅  Server-side HMR Enabled!');
 
   module.hot.accept('./server/index', () => {

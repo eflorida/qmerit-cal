@@ -7,8 +7,14 @@ body {
 
 .page-container {
   max-width: 1200px;
-  padding: 2rem;
-  margin: 100px auto;
+  padding: 2em;
+  margin: 98px auto;
+}
+
+.punchout-container {
+  max-width: 1200px;
+  padding: 0;
+  margin: 60px auto;
 }
 
 h1 {
@@ -20,4 +26,29 @@ h2 {
 h3 {
   text-align: center;
   color: #3b64c2;
+}
+
+.ty-p {
+  text-align: center;
+}
+
+.ty-img {
+  display: block;
+  margin: auto;
+  width: 220px;
+}
+
+.md-card h6 {
+  margin-left: 12px;
+  margin-top: 16px;
+}
+
+.md-card h3 {
+  text-align: left;
+  padding: 16px;
+  font-weight: bold;
+}
+
+.cart .md-card-text {
+  padding: 0 16px;
 }

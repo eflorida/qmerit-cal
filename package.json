@@ -4,13 +4,17 @@
   "license": "MIT",
   "sideEffects": false,
   "scripts": {
-    "start": "razzle start",
+    "start:dev": "razzle start",
     "build": "razzle build",
     "test": "razzle test --env=jsdom",
-    "start:prod": "NODE_ENV=production node build/server.js"
+    "start": "NODE_ENV=production node build/server.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
     "express": "^4.16.3",
+    "fast-xml-parser": "^3.11.0",
     "razzle": "^2.0.0-alpha.12",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
@@ -19,7 +23,8 @@
     "react-router-dom": "^4.2.2",
     "redux": "^4.0.0",
     "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.2.0",
+    "xml2js": "^0.4.19"
   },
   "devDependencies": {
     "autoprefixer": "^8.3.0",

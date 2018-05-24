@@ -3,7 +3,9 @@ import Route from "react-router-dom/Route";
 import Switch from "react-router-dom/Switch";
 
 import { Home } from "./views/home/Home";
-import { ThankYou } from "./views/thankYou/ThankYou";
+import { Cal } from "./views/cal/Cal";
+import { Cart } from "./views/cart/Cart";
+import { EmbedtoCart } from "./views/embedtoCart/EmbedtoCart"
 import { PageNotFound } from "./views/NotFound";
 
 class Router extends React.Component {
@@ -11,7 +13,9 @@ class Router extends React.Component {
     return (
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/thank-you" component={ThankYou} />
+        <Route exact path="/cal" component={Cal} />
+        <Route exact path="/cart" component={Cart} />
+        <Route exact path="/embed-redirect" component={EmbedtoCart} />
         <Route path="/*" component={PageNotFound} />
       </Switch>
     );
