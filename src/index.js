@@ -4,13 +4,14 @@ import http from 'http';
 const server = http.createServer(app);
 
 let currentApp = app;
+let port = process.env.PORT || 3000;
 
-server.listen(process.env.PORT || 3000, error => {
+server.listen(port, "0.0.0.0", error => {
   if (error) {
     console.log(error);
   }
 
-  console.log('🚀 started!');
+  console.log('🚀 started! on port:'. port);
 });
 
 if (module.hot && process.env.NODE_ENV !== 'production') {
