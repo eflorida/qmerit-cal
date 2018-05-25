@@ -16,10 +16,12 @@ const context = {};
 const store = configureStore();
 
 let server = new express();
-
+console.log('process.env.RAZZLE_PUBLIC_DIR:', process.env.RAZZLE_PUBLIC_DIR);
+console.log("__dirname + '/public'", __dirname + '/public');
 server
   .disable("x-powered-by")
-  .use(express.static(__dirname + '/build/public/static'))
+  .use(express.static(process.env.RAZZLE_PUBLIC_DIR))
+  .use(express.static(__dirname + '/public'))
   .use( bodyParser.json() )      // to support JSON-encoded bodies
   .use(bodyParser.urlencoded({     // to support URL-encoded bodies
     extended: true
