@@ -11,7 +11,7 @@ server.listen(port, "0.0.0.0", error => {
     console.log(error);
   }
 
-  console.log('🚀 started! on port:'. port);
+  console.log('🚀 started! on port:', port);
 });
 
 if (module.hot && process.env.NODE_ENV !== 'production') {
