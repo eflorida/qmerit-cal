@@ -1,0 +1,55 @@
+{
+  "icons": [
+    {
+      "src": "/icon_1024x1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_640x640.png",
+      "sizes": "640x640",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Qmerit React Demo",
+  "short_name": "QmeritApp",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/",
+  "description": "Qmerit React Demo",
+  "background_color": "#efefef",
+  "theme_color": "#3B64C2",
+  "options": {
+    "fingerprints": false
+  }
+}
