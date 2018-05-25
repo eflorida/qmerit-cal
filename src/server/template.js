@@ -7,7 +7,7 @@ export const htmlTemplate = (clientCSS, clientJS, preloadedState, markup) => {
         <base href="">
         <title>Qmerit</title>
         <link rel="shortcut icon" type="image/x-icon" href="https://static1.squarespace.com/static/589b4564ebbd1a9503b657d6/t/5abd3d096d2a73027d7050c0/favicon.ico">
-        <link rel="canonical" href="http://localhost/">
+        <link rel="canonical" href="https://qmerit-eproc.herokuapp.com/">
 
         <meta property="og:site_name" content="Qmerit">
         <meta property="og:title" content="Home">
