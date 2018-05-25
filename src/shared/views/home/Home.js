@@ -39,7 +39,11 @@ export class Home extends React.Component {
   getPunchOut() {
     if(this.state.graingerUrl){
       return (
-        <iframe title="Grainger Punch Out Site" sandbox="allow-top-navigation allow-scripts allow-forms allow-same-origin" src={this.state.graingerUrl} width="100%" height="1800px;"></iframe>
+        <iframe title="Grainger Punch Out Site" referrerpolicy="no-referrer" sandbox="allow-top-navigation allow-scripts allow-forms allow-same-origin" src={this.state.graingerUrl} width="100%" height="1800px;">
+          <script>
+            document.domain = document.domain;
+          </script>
+        </iframe>
       )
     } else {
       return (

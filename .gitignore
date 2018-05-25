@@ -3,8 +3,6 @@ logs
 npm-debug.log*
 .DS_Store
 
-build/*hot-update.*
-build/*.map
 coverage
 node_modules
 .env.local
