@@ -7,6 +7,10 @@ module.exports = {
     const appConfig = Object.assign({}, baseConfig);
     const isServer = target !== "web";
 
+    if (target === 'node') {
+      config.output.publicPath = `${process.env.PUBLIC_PATH || __dirname + '/public'}`
+    }
+
     const postCssLoader = {
       loader: "postcss-loader",
       options: {
